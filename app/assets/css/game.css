@@ -1,0 +1,49 @@
+
+.player_1 {
+    color: #382e8f;
+}
+
+.player_2 {
+    color: #dc3545;
+}
+
+#fw {
+    font-size: 36px;
+    transition: transform 400ms;
+    padding: 10px;
+}
+
+#fw:hover {
+    transition: transform 400ms;
+    transform: scale(1.5);
+}   
+
+.selected-blue {
+    border: 1px solid #382e8f7e;
+}
+.selected-red {
+    border: 1px solid #e66673;
+}
+.selected-blue, .selected-red {
+    border-radius: 100%;
+}
+
+.col-sm {
+    cursor: pointer;
+    padding: 100px;
+}
+
+.row .col-sm:hover {
+    transition: background-color 400ms;
+    background-color: #f1f8ff;
+}
+
+#square {
+    height: 200px;
+    width: 200px;
+}
+
+.selected-square {
+    font-size: 30px;
+    text-align: center;
+}
